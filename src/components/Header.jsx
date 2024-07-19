@@ -1,20 +1,19 @@
+"use client";
 import React from "react";
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
     <div>
       <div
-        className="min-h-screen bg-cover bg-center"
+        className="min-h-screen bg-cover bg-center relative"
         style={{
-          backgroundImage: "url(https://wallpapercave.com/wp/wp12982042.png)",
+          backgroundImage: "url(/assets/rms-header.png)",
         }}
       >
-        <div className="flex items-center justify-center min-h-screen bg-black bg-opacity-50">
-          <h1 className="text-4xl font-bold text-white">
-            REGENERATIVE MEDICINE AND STEM CELL LAB
-          </h1>
-        </div>
+        <Navbar />
       </div>
+      <div className="flex text-[4rem] flex-col absolute top-0 left-0 px-20 w-full gradient-overlay  items-start justify-center min-h-screen "></div>
     </div>
   );
 };

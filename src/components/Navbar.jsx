@@ -1,134 +1,89 @@
 "use client";
 
 import React, { useState } from "react";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
-  const hiddenClass = "hidden w-full md:block md:w-auto";
-  const normalClass = "w-full md:block md:w-[100vw]";
-  const [hidden, setHidden] = useState(true);
-  const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDrawer = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
-    <div>
-      {/* <div className="absolute w-[50%] inset-0 gradient-01 hidden md:block" /> */}
-      <div
-        className={`mx-auto w-full absolute top-0 flex justify-end md:justify-center flex-wrap  items-center gap-8 `}
-      >
-        <Link href="/" className="flex items-center">
+    <div className="absolute top-0 left-0 right-0 z-[1000] bg-white bg-opacity-80">
+      <div className="flex items-center justify-between p-4">
+        <div className="flex items-center space-x-4">
           <img
-            src="https://www.iitg.ac.in/design/upload/images/Projects/IITH_logo/IIT%20Hyderabad%20Logo_Final%20Design.jpg"
-            alt="Murl Lab logo"
-            className="h-14"
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/1/19/IIT_Hyderabad_Insignia.svg/1200px-IIT_Hyderabad_Insignia.svg.png"
+            alt="IITH Logo"
+            className="h-20"
           />
-        </Link>
-        <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
-          aria-controls="navbar-default"
-          aria-expanded="false"
-          onClick={() => {
-            setHidden((prev) => !prev);
-          }}
-        >
-          <span className="sr-only">Open main menu</span>
-          <svg
-            className="w-6 h-6"
-            aria-hidden="true"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fillRule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </button>
-
-        <div className={hidden ? hiddenClass : normalClass} id="navbar-default">
-          <ul className="flex flex-col w-full p-4 mt-4 rounded-lg md:flex-row md:space-x-20 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-murl-black uppercase transition-all">
-            <li>
-              <Link
-                href="/"
-                className={
-                  router.pathname === "/"
-                    ? "block font-bold py-2 pr-4 md:text-[1.2rem] pl-3 text-white/90 bg-[#F5A158] rounded md:bg-transparent  md:text-[#F5A158] md:p-0  transition-all"
-                    : "block font-bold py-2 pr-4  md:text-[1.2rem] pl-3 text-white/90 rounded hover:text-[#F5A158] md:hover:bg-transparent md:border-0 md:hover:text-[#F5A158] md:p-0  transition-all"
-                }
-                aria-current="page"
-                onClick={() => {
-                  setHidden((prev) => !prev);
-                }}
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/team"
-                className={
-                  router.pathname === "/team"
-                    ? "block font-bold py-2 pr-4  md:text-[1.2rem] pl-3 text-white/90 bg-[#F5A158] rounded md:bg-transparent  md:text-[#F5A158] md:p-0  transition-all"
-                    : "block font-bold py-2 pr-4  md:text-[1.2rem] pl-3 text-white/90 rounded hover:text-[#F5A158] md:hover:bg-transparent md:border-0 md:hover:text-[#F5A158] md:p-0  transition-all"
-                }
-                onClick={() => {
-                  setHidden((prev) => !prev);
-                }}
-              >
-                People
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/research/"
-                className={
-                  router.pathname === "/research"
-                    ? "block font-bold py-2 pr-4  md:text-[1.2rem] pl-3 text-white/90 bg-[#F5A158] rounded md:bg-transparent  md:text-[#F5A158] md:p-0  transition-all"
-                    : "block font-bold py-2 pr-4  md:text-[1.2rem] pl-3 text-white/90 rounded hover:text-[#F5A158] md:hover:bg-transparent md:border-0 md:hover:text-[#F5A158] md:p-0  transition-all"
-                }
-                onClick={() => {
-                  setHidden((prev) => !prev);
-                }}
-              >
-                LAB
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/publications"
-                className={
-                  router.pathname === "/publications"
-                    ? "block font-bold py-2 pr-4  md:text-[1.2rem] pl-3 text-white/90 bg-[#F5A158] rounded md:bg-transparent  md:text-[#F5A158] md:p-0  transition-all"
-                    : "block font-bold py-2 pr-4  md:text-[1.2rem] pl-3 text-white/90 rounded hover:text-[#F5A158] md:hover:bg-transparent md:border-0 md:hover:text-[#F5A158] md:p-0  transition-all"
-                }
-                onClick={() => {
-                  setHidden((prev) => !prev);
-                }}
-              >
-                Publications
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/contact"
-                className={
-                  router.pathname === "/contact"
-                    ? "block font-bold py-2 pr-4  md:text-[1.2rem] pl-3 text-white/90 bg-[#F5A158] rounded md:bg-transparent  md:text-[#F5A158] md:p-0  transition-all"
-                    : "block font-bold py-2 pr-4  md:text-[1.2rem] pl-3 text-white/90 rounded hover:text-[#F5A158] md:hover:bg-transparent md:border-0 md:hover:text-[#F5A158] md:p-0  transition-all"
-                }
-                onClick={() => {
-                  setHidden((prev) => !prev);
-                }}
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
+          <div className="text-black text-2xl">
+            <h1 className="font-medium">IIT Hyderabad</h1>
+            <p>Department of Biomedical Engineering</p>
+          </div>
         </div>
+        <div className="flex items-center space-x-4">
+          <button
+            onClick={toggleDrawer}
+            className="text-black focus:outline-none"
+          >
+            {isOpen ? <FaTimes size={34} /> : <FaBars size={34} />}
+          </button>
+        </div>
+      </div>
+
+      <div
+        className={`fixed top-0 left-0 h-full w-[25rem] bg-white text-black uppercase text-2xl transform ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        } transition-transform duration-300 ease-in-out z-50`}
+      >
+        <nav className="flex flex-col p-4 gap-5 mt-5">
+          <Link
+            href="/"
+            className="py-2 px-4 hover:bg-gray-500 border-b-black/20 border-b hover:text-white transition-all"
+          >
+            Home
+          </Link>
+          <Link
+            href="/research-and-lab"
+            className="py-2 px-4 hover:bg-gray-500 border-b-black/20 border-b hover:text-white transition-all"
+          >
+            Research & Lab
+          </Link>
+          <Link
+            href="/team"
+            className="py-2 px-4 hover:bg-gray-500 border-b-black/20 border-b hover:text-white transition-all"
+          >
+            Team
+          </Link>
+          <Link
+            href="/teaching"
+            className="py-2 px-4 hover:bg-gray-500 border-b-black/20 border-b hover:text-white transition-all"
+          >
+            Teaching
+          </Link>
+          <Link
+            href="/publications"
+            className="py-2 px-4 hover:bg-gray-500 border-b-black/20 border-b hover:text-white transition-all"
+          >
+            Publications
+          </Link>
+          <Link
+            href="/faq"
+            className="py-2 px-4 hover:bg-gray-500 border-b-black/20 border-b hover:text-white transition-all"
+          >
+            FAQ
+          </Link>
+          <Link
+            href="/contact-us"
+            className="py-2 px-4 hover:bg-gray-500 border-b-black/20 border-b hover:text-white transition-all"
+          >
+            Contact Us
+          </Link>
+        </nav>
       </div>
     </div>
   );
