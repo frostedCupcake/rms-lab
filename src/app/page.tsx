@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Header />
-      <div className="px-20 flex flex-col gap-10">
+      <div className="px-5 md:px-20 flex flex-col gap-10">
         <About />
         <PI />
       </div>

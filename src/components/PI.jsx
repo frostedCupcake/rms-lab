@@ -6,9 +6,9 @@ import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
 
 const PI = () => (
   <section
-    className={`relative z-10 p-10 flex flex-col justify-center items-start gap-5`}
+    className={`relative z-10 p-2 md:p-10 flex flex-col justify-center items-center md:items-start gap-5`}
   >
-    <h2 className="text-black text-3xl font-medium capitalize underline">
+    <h2 className="text-black text-2xl md:text-3xl font-medium capitalize underline">
       Principal Investigator
     </h2>
 
@@ -19,13 +19,13 @@ const PI = () => (
       viewport={{ once: true, amount: 0.25 }}
       className={`mx-auto flex lg:flex-row items-center justify-between flex-col`}
     >
-      <motion.div variants={planetVariants("left")} className={`flex-1`}>
+      <motion.div variants={planetVariants("left")} className={`mx-auto`}>
         <img
           src={
             "https://www.iith.ac.in/assets/images/profiles/Subha_Narayan_Rath.jpg"
           }
           alt="Dr. Subha Narayan Rath"
-          className="w-[80%] h-[80%] md:w-[60%] md:h-[60%] lg:w-[70%] lg:h-[70%] object-contain rounded-sm shadow-md"
+          className="w-[80%] h-[80%] md:w-[60%] md:h-[60%] lg:w-[75%] lg:h-[75%] object-contain rounded-sm mx-auto  shadow-md"
         />
       </motion.div>
       <motion.div

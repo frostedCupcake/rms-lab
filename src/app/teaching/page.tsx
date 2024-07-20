@@ -1,4 +1,5 @@
 // pages/teaching.js
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React from "react";
 
@@ -6,8 +7,8 @@ const Teaching = () => {
     return (
         <div>
             <Navbar />
-            <div className="p-4 mt-[8rem] px-[8rem]">
-                <h1 className="text-3xl text-center py-10 font-bold mb-4">Teaching by RMS Lab</h1>
+            <div className="md:p-4 p-2 mt-[4rem] md:mt-[8rem] md:px-[8rem]">
+                <h1 className="text-2xl md:text-3xl text-center py-8 pb-4 font-bold">Teaching by RMS Lab</h1>
                 <div className="grid lg:grid-cols-2 gap-5">
 
 
@@ -148,6 +149,7 @@ const Teaching = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };

@@ -21,8 +21,10 @@ const Navbar = () => {
             className="h-16 sm:h-20"
           />
           <div className="text-black text-[1rem] sm:text-2xl">
-            <h1 className="font-medium">IIT Hyderabad</h1>
-            <p className="text-sm sm:text-base">
+            <h1 className="font-medium text-[0.8rem] sm:text-2xl">
+              IIT Hyderabad
+            </h1>
+            <p className="text-[0.6rem] sm:text-base">
               Department of Biomedical Engineering
             </p>
           </div>
@@ -32,7 +34,11 @@ const Navbar = () => {
             onClick={toggleDrawer}
             className="text-black focus:outline-none menu"
           >
-            {isOpen ? <FaTimes size={28} /> : <FaBars size={28} />}
+            {isOpen ? (
+              <FaTimes className="text-2xl md:text-3xl" />
+            ) : (
+              <FaBars className="text-2xl md:text-3xl" />
+            )}
           </button>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React from "react";
 
@@ -5,8 +6,8 @@ const page = () => {
     return (
         <div>
             <Navbar />
-            <div className="p-4 mt-[8rem] px-[8rem]">
-                <h1 className="text-3xl text-center py-10 font-bold mb-4">Contact Us</h1>
+            <div className="md:p-4 mt-[4rem] p-2 md:px-[8rem]">
+                <h1 className="text-2xl md:text-3xl text-center py-8 pb-4 font-bold ">Contact Us</h1>
                 <h2 className="text-xl font-bold mt-4">Dr. Subha Narayan Rath</h2>
                 <p>Office No : BM- 202</p>
                 <p>Dept. of Biomedical Engineering</p>
@@ -42,6 +43,7 @@ const page = () => {
                     .
                 </p>
             </div>
+            <Footer />
 
         </div>
     );
