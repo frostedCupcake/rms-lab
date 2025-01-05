@@ -18,7 +18,7 @@ const Navbar = () => {
           <img
             src="https://upload.wikimedia.org/wikipedia/en/thumb/1/19/IIT_Hyderabad_Insignia.svg/1200px-IIT_Hyderabad_Insignia.svg.png"
             alt="IITH Logo"
-            className="h-16 sm:h-20"
+            className="h-16 sm:h-18"
           />
           <div className="text-black text-[1rem] sm:text-2xl">
             <h1 className="font-medium text-[0.8rem] sm:text-2xl">
