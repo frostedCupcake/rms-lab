@@ -251,6 +251,20 @@ export const courses = [
     description:
       "This course is intended for practical handling experience for students for molecular biology techniques such as DNA isolation, RNA isolation, polymerase chain reaction, and transfection. They should also learn basic molecular biology methods and their interpretation with respect to cell culturing techniques. Prior knowledge of mammalian cell culture is mandatory for this course.",
   },
+  {
+    code: "BM 6123",
+    credits: "2",
+    title: "Tissue Engineering Lab",
+    syllabus: [
+      "DNA, RNA isolation",
+      "PCR reaction",
+      "Western blotting",
+      "Immunohistochemistry",
+      "Cytoskeleton staining",
+    ],
+    description:
+      "This course is intended for practical handling experience for students for molecular biology techniques such as DNA isolation, RNA isolation, polymerase chain reaction, and transfection. They should also learn basic molecular biology methods and their interpretation with respect to cell culturing techniques. Prior knowledge of mammalian cell culture is mandatory for this course.",
+  },
 ];
 
 export const researchInterests = [
