@@ -85,6 +85,99 @@ export const equipments = {
 export const publications = [
   {
     title:
+      "Macrophage polarization dynamics in biomaterials: Implications for in vitro wound healing.",
+    year: "2024",
+    authors: "Giri PS, Rath SN",
+    journal: "ACS Applied Bio Materials 7 (4), 2413-2422",
+  },
+  {
+    title:
+      "Dysregulation of calcium homeostasis in cancer and its role in chemoresistance.",
+    year: "2024",
+    authors: "Kumari N, Pullaguri N, Rath SN, Bajaj A, Sahu V, Ealla KKR",
+    journal: "Cancer Drug Resistance, Published online March 15, 2024",
+  },
+  {
+    title:
+      "Differential osteo-specific invasion of patient-derived cancer cells in a microfluidic co-culture model.",
+    year: "2024",
+    authors: "Sukanya VS, Mehta V, Jilla S, Rath SN",
+    journal: "Chemical Engineering Journal 489, 151202",
+  },
+  {
+    title:
+      "Accelerating vascular graft development: Adipose-derived stem cells and PODS® (Polyhedrin delivery system with tissue-specific growth factors) – Enhanced 3D bioprinting for functional blood vessels.",
+    year: "2024",
+    authors: "Priya S, Boyd AS, Torres-Bautista A, et al.",
+    journal: "Chemical Engineering Journal 494, 152934",
+  },
+  {
+    title:
+      "3D stem-like spheroids-on-a-chip for personalized combinatorial drug testing in oral cancer.",
+    year: "2024",
+    authors:
+      "Mehta V, Vilikkathala Sudhakaran S, Nellore V, Madduri S, Rath SN",
+    journal: "Journal of Nanobiotechnology 22 (1)",
+  },
+  {
+    title:
+      "On-chip mixing of cancer cells and drug using LED enabled 2D opto-wetting droplet platforms.",
+    year: "2023",
+    authors: "Thomas T, Govindharaj M, Unni HN, Kumari N, Rath SN",
+    journal: "Biomedical Physics & Engineering Express 9 (4), 045005",
+  },
+  {
+    title: "Thin Microfluidic Chips with Active Valves.",
+    year: "2023",
+    authors: "Prajapati E, Giri PS, Rath SN, Kumar S",
+    journal: "Cold Spring Harbor Laboratory",
+  },
+  {
+    title:
+      "3D bioprintable hypoxia-mimicking peg-based nano bioink for cartilage tissue engineering.",
+    year: "2023",
+    authors: "Ravi S, Chokkakula LPP, Giri PS, Korra G, Dey SR, Rath SN",
+    journal: "ACS Applied Materials & Interfaces 15 (16), 19921-19936",
+  },
+  {
+    title:
+      "Osteomatrix as a personalized 3D tissue-specific invasion test-bed for oral carcinoma.",
+    year: "2023",
+    authors: "V. S. S, Giri PS, Nellore V, Rath SN",
+    journal: "Biomaterials Science 11 (12), 4265-4280",
+  },
+  {
+    title:
+      "Selective targeting of lung cancer cells with methylparaben-tethered-quinidine cocrystals in 3D spheroid models.",
+    year: "2023",
+    authors:
+      "Krishnamoorthi S, Kasinathan GN, Paramasivam G, Rath SN, Prakash J",
+    journal: "ACS Omega 8 (49), 46628-46639",
+  },
+  {
+    title:
+      "Biomimetic mineralization of mn-doped biphasic calcium phosphate in the GelMa Hydrogel acting as a functional 3D bioscaffold for osteo defect repair.",
+    year: "2023",
+    authors: "Kamaraj M, Datla A, Moulton SE, Rath SN",
+    journal: "ACS Applied Polymer Materials 6 (1), 943-955",
+  },
+  {
+    title:
+      "Investigation of microstructural failure in the human cornea through fracture tests.",
+    year: "2023",
+    authors:
+      "Chittajallu SNSH, Gururani H, Tse KM, Rath SN, Basu S, Chinthapenta V",
+    journal: "Scientific Reports 13 (1)",
+  },
+  {
+    title:
+      "A neutral flavin–triphenylamine probe for mitochondrial bioimaging under different microenvironments.",
+    year: "2023",
+    authors: "Agrawal HG, Giri PS, Meena P, Rath SN, Mishra AK",
+    journal: "ACS Medicinal Chemistry Letters 14 (12), 1857-1862",
+  },
+  {
+    title:
       "Bioengineering strategies for 3D bioprinting of tubular construct using tissue-specific decellularized extracellular matrix.",
     year: "2022",
     authors: "M Kamaraj, PS Giri, S Mahapatra, F Pati, SN Rath",
@@ -325,5 +418,275 @@ export const faqs = [
     question:
       "What is the prerequisite subject background requirement for admissions into PhD under this group?",
     answer: `Being an inter-disciplinary dept., any person with a background of Biotechnology, Cell Science, Material Science is welcome to apply for this course. Additionally, students with a background in Mechanical Engineering, Electrical Engineering, Chemistry can apply to this lab or Biomedical Engineering dept., IIT Hyderabad, provided they adjust to an ongoing problem statement of any researcher.`,
+  },
+];
+
+export const current_students_phd = [
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/gokul.jpg",
+    Name: "Gokula Nathan Kasinathan",
+    Background: [
+      "Ph.D student",
+      "M.Tech - Biotechnology",
+      "IITH-Swinburne PhD fellowship",
+    ],
+    email: "bm17resch11005@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/meenakshi.jpg",
+    Name: "Meenakshi Kamaraj",
+    Background: [
+      "Ph.D student",
+      "M.Tech - Nanoscience and Nanotechnology",
+      "IITH-Swinburne PhD fellowship",
+    ],
+    email: "bm18resch01004@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/sarwar.jpg",
+    Name: "Sarwar Azam",
+    Background: ["Ph.D student", "M.Tech - Biotechnology", "External PhD"],
+    email: "bm17resch11007@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/vidya.png",
+    Name: "Dr. Vidya Sagar Sisinty",
+    Background: [
+      "Ph.D student",
+      "MDS (Periodontics), MBA (HCS)",
+      "External PhD",
+    ],
+    email: "bm17resch11006@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/akshay.jpg",
+    Name: "Akshay Bhatt",
+    Background: [
+      "Ph.D student",
+      "M.Tech - Biotechnology",
+      "IITH-Swinburne PhD fellowship",
+    ],
+    email: "akshaybhatt@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/subhashini.jpg",
+    Name: "Subhashini Ravi",
+    Background: ["Ph.D student", "M.Pharmacology", "CSIR-JRF Fellowship"],
+    email: "bm18resch11002@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/viraj.jpg",
+    Name: "Viraj Mehta",
+    Background: [
+      "Ph.D student",
+      "B.Tech - Mechanical Engineering",
+      "Prime Minister's Research Fellowship (PMRF)",
+    ],
+    email: "bm18resch11010@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/sukanya.jpg",
+    Name: "Sukanya S.",
+    Background: [
+      "Ph.D student",
+      "MS - Biological Sciences",
+      "CSIR-UGC-JRF Fellowship",
+    ],
+    email: "bm18resch11015@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/pravin.jpg",
+    Name: "Pravin Giri",
+    Background: [
+      "Ph.D student",
+      "M.Tech - Biotechnology",
+      "UGC-JRF Fellowship",
+    ],
+    email: "bm18resch11003@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/sushma.jpg",
+    Name: "Sushma Priya",
+    Background: [
+      "Ph.D student",
+      "M.Tech - Biotechnology",
+      "DST-INSPIRE Fellowship",
+    ],
+    email: "bm19resch11004@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/arun.jpg",
+    Name: "Arunkumar Ettikuppam",
+    Background: [
+      "Ph.D student",
+      "M.Sc. - Biochemistry, SVU",
+      "UGC-SRF Fellowship",
+    ],
+    email: "bm19resch11003@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/pragati.jpg",
+    Name: "Pragati Sharma",
+    Background: ["Ph.D student", "M.Sc. - Zoology", "DBT-JRF Fellowship"],
+    email: "bm21resch01006@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/amrutha.jpeg",
+    Name: "Amrutha Datla",
+    Background: [
+      "Ph.D student",
+      "M.Sc. - Human Genetics",
+      "DST-INSPIRE Fellowship",
+    ],
+    email: "bm21resch01010@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/manish.jpg",
+    Name: "Manish Kumar Tripathi",
+    Background: [
+      "Ph.D student",
+      "M.Sc. - Biotechnology",
+      "IITH-Swinburne PhD Fellowship",
+    ],
+    email: "bm21resch11005@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/reshma.jpg",
+    Name: "Reshma I R",
+    Background: [
+      "Interdisciplinary Ph.D student",
+      "M.Sc. - Microbiology",
+      "MOE Fellowship",
+    ],
+    email: "Id22resch11004@iith.ac.in",
+  },
+];
+
+export const current_students_masters = [
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/arghyadip.jpg",
+    Name: "Arghyadip Bose",
+    Background: ["M.Tech student", "B.Tech - Biotechnology"],
+    email: "bm21mtech11002@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/rubleen.jpg",
+    Name: "Rubleen Khosa",
+    Background: ["M.Tech student", "B.Tech - Biotechnology"],
+    email: "bm21mtech14013@iith.ac.in",
+  },
+];
+
+export const PI = [
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/subha.jpg",
+    Name: "Prof. Subha Narayan Rath",
+    Background: [
+      "Professor & Head of Dept. of Biomedical Engineering",
+      "Post Doctoral Fellowship - Dept. of Plastic & Hand Surgery, University Hospital of Erlangen, Germany",
+      "Ph.D - National University of Singapore (NUS)",
+      "M.M.S.T - Indian Institute of Technology (IIT), Kharagpur",
+      "M.B.B.S - M.K.C.G. Medical College, Berhampur, Odisha",
+    ],
+    email: "subharath@bme.iith.ac.in",
+  },
+];
+
+export const alums_phd = [
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/sindhuja.jpg",
+    Name: "Dr. Sindhuja D E",
+    Background: ["Ph.D student", "2013-2018"],
+    email: "bm13p1004@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/sharanya.jpg",
+    Name: "Dr. Sharanya Sankar",
+    Background: ["Ph.D student", "2014-2019", "Fulbright-Nehru Fellowship"],
+    email: "bm14resch11004@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/uday.jpg",
+    Name: "Dr. Uday Kiran Roopavath",
+    Background: [
+      "Ph.D student",
+      "M.Tech - Nanoscience and Nanotechnology",
+      "MHRD & Commonwealth Fellowship",
+    ],
+    email: "bm15resch11005@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/nandini.jpeg",
+    Name: "Dr. Nandini Dhiman",
+    Background: [
+      "Ph.D student",
+      "M.Tech - Biomedical Engineering",
+      "IITH-Swinburne PhD fellowship",
+    ],
+    email: "bm15resch11002@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/neema.jpg",
+    Name: "Dr. Neema Kumari",
+    Background: [
+      "Ph.D student",
+      "M.Sc. Applied Microbiology and Biotechnology",
+      "UGC-SRF Fellowship",
+    ],
+    email: "bo15resch11004@iith.ac.in",
+  },
+];
+
+export const alums_masters = [
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/sundeep.jpg",
+    Name: "Sundeep Bethapudi",
+    Background: ["M.Tech student"],
+    email: "bm12m1003@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/amit.jpg",
+    Name: "Amit Kumar Shukla",
+    Background: ["M.Tech student"],
+    email: "bm16mtech11002@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/raghav.jpg",
+    Name: "Raghav Soni",
+    Background: ["M.Tech student"],
+    email: "bm16mtech11006@iith.ac.in",
+  },
+  {
+    ImgLink: "https://people.iith.ac.in/subharath/images/srishti.png",
+    Name: "Srishti Jain",
+    Background: ["M.Tech student", "B.Tech - Instrumentation Engineering"],
+    email: "BM18MTECH11002@iith.ac.in",
+  },
+];
+
+export const homeImagesData = [
+  // {
+  //   url: "https://people.iith.ac.in/subharath/slides/slide1.jpeg",
+  //   name: "",
+  // },
+  {
+    url: "https://people.iith.ac.in/subharath/slides/slide2.jpeg",
+    name: "",
+  },
+  {
+    url: "https://people.iith.ac.in/subharath/slides/slide3.jpeg",
+    name: "",
+  },
+  {
+    url: "https://people.iith.ac.in/subharath/slides/slide4.jpeg",
+    name: "",
+  },
+  {
+    url: "https://people.iith.ac.in/subharath/slides/slide5.jpeg",
+    name: "",
+  },
+  {
+    url: "https://people.iith.ac.in/subharath/slides/slide6.jpeg",
+    name: "",
   },
 ];

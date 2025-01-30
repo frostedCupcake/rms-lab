@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Equipments from "../../components/Equipments";
+import HomeCarousel from "../../components/HomeCarousel";
 import React from "react";
 import { researchInterests } from "@/constants";
 
@@ -8,8 +9,11 @@ const RMSLabPage = () => {
   return (
     <div className="flex  flex-col relative gap-5">
       <Navbar />
-      <div className="px-10 mb-5 bg-gray-50 mt-[8rem]">
-        <Equipments />
+
+      <div className="px-10 mb-5 bg-gray-50 pt-[12rem]">
+        <div className="pb-10">
+          <Equipments />
+        </div>
         <h3 className="text-black mt-10 text-2xl flex items-center justify-center font-medium underline">
           Current Research Interests of Our Lab:
         </h3>

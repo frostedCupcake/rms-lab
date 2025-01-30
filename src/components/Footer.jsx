@@ -4,7 +4,7 @@ import Link from "next/link";
 import { socials } from "../constants";
 
 const Footer = () => (
-  <footer className={`bg-white px-5 md:px-20 text-black py-8 relative`}>
+  <footer className={`bg-white  md:px-20 text-black py-8 relative`}>
     {/* <div className="footer-gradient hidden md:block" /> */}
     <div className={` mx-auto flex flex-col  gap-8`}>
       <div className="flex flex-col ">
