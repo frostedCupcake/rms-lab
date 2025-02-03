@@ -23,19 +23,27 @@ export const socials = [
 
 export const equipments = {
   "Real time PCR":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1Kx-phMxcm1_-Lr8QbmJrOZFDmVfBZT1-",
+  "Cell culture room":
+   "https://drive.google.com/thumbnail?id=1BP8g7w_ujYVT9lhtW51juYoyYl1FUeYA",
   "3D bioprinter":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1EBV4I6Jz2MthkVEw-VgvV0f9svPmlGux",
+  "Electrospinning setup":
+   "https://drive.google.com/thumbnail?id=1U5AWtLDtQcOxSidPQP27CWGSxUK75cqd",
+  "Electrowriting setup":
+   "https://drive.google.com/thumbnail?id=1oSTS0hNpI_EhM76V-9DUUrd6Vcsk8M6F",
+  "Hypoxia chamber":
+   "https://drive.google.com/thumbnail?id=1_ojaShHev-AErf3m9P4Iz-JxNsxkyy3p", 
   "Bioreactor for tissue growth":
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
   "Cryotome for tissue sectioning":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1Ym93jzPPh_H4IdeKgJK6FkXXu2i4Wws2",
   "Fluorescent Microscope":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1rigRHsLvOQZf7MXgwyAW-LvtGejidpXi",
   "Instron mechanical testing machine":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1WJv7HRlS9S9RewFyrvR-cylhY0Eakufx",
   "Plate reader for absorbance/fluroescence/luminiscence":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1rut3Ajfiftkofp2tVOfvT57q5pATDci8",
   "CO2 Incubator":
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
   "Biosafety Cabinet":
@@ -43,31 +51,31 @@ export const equipments = {
   "Electrophoresis System":
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
   "Blotting System":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=14vk2JO5KCQVx8zX57JfCHbuhyz8y6pRK",
   "Milli-Q Integral Water Purification System":
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
   "Refrigerators, Flammable Storage":
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
   "BioDrop-DUO-UV-Vis Spectrophotometer":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1T1_OxbHmdJKsfd4pNH5D95zit7UIDe7h",
   "Magnetic Stirrer":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=11mbk1AwCjD7HxcMBaxQcH2xtdGb8Pd5K",
   "Inverted Microscope":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1bkgzbRPQI3WwUowpUlkKHdmjbfMLCQE9",
   "Vortex Mixer and Hot Plate Stirrer":
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
   "Circulating Water Baths":
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
   "Ice Flaker":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
-  "Orbital Shaker":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1SflF-wIBtcRdZ-NBKQrHt83akJ48JO5U",
+  "Fume hood":
+    "https://drive.google.com/thumbnail?id=1IKENBqKBTniP0uvhhXWgZw6v2C16XF_I",
   Centrifuges:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1H9eyU31PzBIDo-uCRgCqMjL6ov-RUZBn",
   "Liquid Nitrogen Tanks":
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
   "Electronic Balance":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1E3893jwKsnCsPFxCyzFBXo_TH28V1Ow7",
   "Tissue Homogenizer":
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
   "PCR Mastercycler":
@@ -75,11 +83,13 @@ export const equipments = {
   Autoclave:
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
   "-80C Freezer":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1I2P98erIiGcmjYLxxDDhIEvl8RQdbFoq",
+  "-20C Freezer":
+    "https://drive.google.com/thumbnail?id=1DnbsU_RpuZwPU1XI4KR0sp5rTtamMvhU",
   Lyophilizer:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1MZILRJ3g3HEcQnFad7kPPUVPSqwUyxUO",
   "Shaker incubator":
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNLEL-qmmLeFR1nxJuepFOgPYfnwHR56vcw&s",
+    "https://drive.google.com/thumbnail?id=1TEKwWjc3_xYkQOmQ9SiaRKxU9lGfuNuU",
 };
 
 export const publications = [
@@ -329,20 +339,6 @@ export const courses = [
     ],
     description:
       "The students will learn in a seminar-based manner about a number of tissue-specific regenerative medicine and various approaches to achieve this.",
-  },
-  {
-    code: "BM 6123",
-    credits: "2",
-    title: "Tissue Engineering Lab",
-    syllabus: [
-      "DNA, RNA isolation",
-      "PCR reaction",
-      "Western blotting",
-      "Immunohistochemistry",
-      "Cytoskeleton staining",
-    ],
-    description:
-      "This course is intended for practical handling experience for students for molecular biology techniques such as DNA isolation, RNA isolation, polymerase chain reaction, and transfection. They should also learn basic molecular biology methods and their interpretation with respect to cell culturing techniques. Prior knowledge of mammalian cell culture is mandatory for this course.",
   },
   {
     code: "BM 6123",
